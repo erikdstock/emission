@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as Relay from "react-relay"
+import * as Relay from "react-relay/classic"
 
 import { ScrollView } from "react-native"
 import ActiveBids from "../Components/Inbox/Bids"
