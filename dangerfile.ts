@@ -189,3 +189,7 @@ ${errors.join("\n")}
 // Check for dependency changes
 import yarn from "danger-plugin-yarn"
 schedule(yarn())
+
+// Check for typoes
+import spellcheck from "danger-plugin-spellcheck"
+schedule(spellcheck())

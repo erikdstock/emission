@@ -1,3 +1,5 @@
+helo hlep
+
 ### Using the Emission Beta
 
 Emission is a developer-focused application, so you'll note that it's very spartan in its design.
@@ -8,7 +10,7 @@ The mobile team moved to a technology called React Native, which allows the mobi
 
 To pull this off we have a separate place to keep new screens for pages on Artsy. This app Emission is where they are built, and then we move them into the Artsy iOS app when we think they're ready. Think of it as a staging environment for new screens.
 
-The way we do this is by building lots of smaller blocks called Components. Think of how Artsy's design is consistent - we want to make a button look the same Artsy style on every page. So we make Components and we describe different ways in which these look as different states.
+The way we do this is by building lots of smaller blocks called Components. Think of how Artsy's traerdesign is consistent - we want to make a button look the same Artsy style on every page. So we make Components and we describe different ways in which these look as different states.
 
 Inside the app we use something called Storybooks to showcase the components and the states. As a user, you can browse through the different storybooks to see how different components look in different states.
 
@@ -25,4 +27,4 @@ The menu lets you do a few things:
 * Code Review: You can run the code from any active Pull Request, this lets you see work exactly as it's happening.
 * AppHub: Any accepted code from Code Review goes into AppHub where you can choose to work with it. ( _Note: currently you cannot run stories from AppHub )
 * View Controllers: Jump off points to specific parts of the app. These are used when we want to do final tests for integration with the Artsy iOS app.
-
+traer
